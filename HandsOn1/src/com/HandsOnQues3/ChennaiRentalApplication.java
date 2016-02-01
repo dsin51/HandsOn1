@@ -12,7 +12,7 @@ public class ChennaiRentalApplication {
 		int key = 0;
 		Scanner sin = new Scanner(System.in);
 		do{
-		System.out.println("Enter the Serial Number: (1/2/3) Press 4 to exit");
+		System.out.println("Enter the Serial Number: (1.Fan\n2.Furniture\n3.AC\n4.Vessels) Press 4 to exit");
 		key = sin.nextInt();
 		if(key >= 4) break;
 		System.out.println("Enter the number of days:");
